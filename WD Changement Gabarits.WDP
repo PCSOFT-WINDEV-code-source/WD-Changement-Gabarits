@@ -1,0 +1,141 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Changement Gabarits
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Le projet a pour but de ...
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Changement Gabarits
+    internal_properties : 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
+    configuration_id : 8346979703115400910
+    type : 1
+    generation_name : WD Changement Gabarits.exe
+    version :
+     version : VI200027
+     autoincrement_version : false
+    icon_filename : .\VST12443a.ico
+    language : 1
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAACqotIeo3ap3nKnrXGMtEPkdNKlTfx7OaJ+UjEckhr5BeJ/oIrARNWzKkbvyOweAlE8jGYV/6ito5W/
+ elements :
+  identifier : 0x4cea9bfa00192840
+  elements :
+   -
+     name : FEN_ChoixGabarit
+     identifier : 0x4a1fb82600003e2d
+     internal_properties : CAAAAAgAAADVsT1hXjtzrLs6WE18Pi6au/ryKq0GP7CiZkt1WqBqTo52uKJ+utxVBD64AIBwCPjAQA==
+     physical_name : .\FEN_ChoixGabarit.wdw
+     type : 2
+   -
+     name : ETAT_ListeContacts
+     identifier : 0x4a1fe51e0002e7d7
+     internal_properties : CAAAAAgAAAAYdsDc65CYQwzfbXZVmF19bnENXXmqQtRcJy6FSdbGwg7cEOol0/NqadPNK+vlnRP9BQ==
+     physical_name : .\ETAT_ListeContacts.wde
+     type : 3
+   -
+     name : WinDevMessageBox
+     identifier : 0x49760c0b01ef1925
+     internal_properties : CAAAAAgAAABi2FpOfSqCnbtGJEtAeeRCNFdzK5ewZCdch6RHm5SAqETaK25wiZJSDD2nEZFPK51n7w==
+     physical_name : .\WinDevMessageBox.WDW
+     type : 2
+   -
+     name : Gabarits
+     identifier : 0x4a1bc9500000afad
+     internal_properties : CAAAAAgAAACZ9UFFYt9XWGfmBIk4AEYyV+qmDsJTAqiE9VCTNeog0GT4FlTCfpiRQPrk3KRcJJR8hA==
+     physical_name : .\Gabarits.wdg
+     type : 7
+   -
+     name : FEN_Principale
+     identifier : 0x4a1bca1f0001da36
+     internal_properties : CAAAAAgAAACHg+8z8K0FJjH0Dpc2C6jAQR7kdDFWOH5KJDtWwUlV493XH1vMdJKLTsgyjhbKtiqSkg==
+     physical_name : .\FEN_Principale.wdw
+     type : 2
+   -
+     name : COL_ProcéduresGlobales
+     identifier : 0x426f853900ce3c3e
+     internal_properties : CAAAAAgAAAB10V1BfttTDNuaOK0cbMqeO156YuYnN/Ocn2SHUd40NNhkitBemry1pJ4Y4KBQKJhg4A==
+     physical_name : .\COL_ProcéduresGlobales.wdg
+     type : 7
+   -
+     name : TEST_COL_ProcéduresGlobales
+     identifier : 0x426f854000d056cf
+     internal_properties : CAAAAAgAAAAEAmxIdyyEp7BDkTq5isWdOllxafnanR5EBSSHV9g8PNxmjtxB/yce3UexD5dJMacREQ==
+     physical_name : .\TEST_COL_ProcéduresGlobales.wxt
+     type : 17
+   -
+     name : WinDevDialogBox
+     identifier : 0x49760c0b01f71a1e
+     internal_properties : CAAAAAgAAACkPVeGx6U8nCULU0XXeUlECbSRD+o+z+YzlYFuJV/7EN7rYTGjmQ1wU1uYWb0pUw==
+     physical_name : .\WinDevDialogBox.WDW
+     type : 2
+  other_elements :
+   -
+     physical_name : .\description.gif
+   -
+     physical_name : .\description.rtf
+  analysis : .\WD Changement Gabarits.ana\WD Changement Gabarits.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAANK99aT578pqrY5vHKk6We4QlF1n4phI60i5kiJ2ajIXqY8ANw+K+Ev0qF5XyF7/X5nkR47wx/A9HQAdXUtV09qS9IbkPPF7nTWSaUTtcQidvXNTL45w==
+     code : |1-
+      CONSTANT
+      	csNomRepertoireGabarits = "Gabarits"
+      	csNomParametreGabarit	= "GABARIT_DYNAMIQUE"
+      FIN
+      
+      // Faut-il appliquer un gabarit dynamiquement ?
+      SI ChargeParamètre(csNomParametreGabarit,"")<>"" ALORS
+      	ChangeGabarit("",ChargeParamètre(csNomParametreGabarit,""))
+      FIN
+      
+      CAS EXCEPTION:
+      	Erreur(<§@00000000000000000000§>,ExceptionInfo())
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Changement Gabarits
+     identifier : 0x4cea9bfa002228bd
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : "Une erreur est survenue, veuillez nous excuser"
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

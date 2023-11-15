@@ -1,0 +1,274 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_ChoixGabarit
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_ChoixGabarit
+ identifier : 0x2a1fb824249d369f
+ internal_properties : CAAAAAgAAADi9nw1LanJWV7pD0suVmCz7X4ecBxvWELpHQjz9m7jFVkmDsEu+qiaQruT8WEOve4s89eSx3QvFS4ezns+4yEz96leHQgDroDrQUoIGlaDYd6otF7y+iApAM2YcpZ8R9HiIsUXzH8vO9hr0kyXN9vQB6Z4axCJXubtxyY/M/mnEaKVnJ10XDmtkDBUPF94rwRbuVqhDs1S6J4z7IzQFtHcMJfikqqc3EFHBVypUT1gOjJK6ASuEOYAY2LszlQKY80LujgSvgDeKzu0WaAO+lcNZlms5Oq8/RE19YDb37fRimFpDHM84eHPZ1dBfz3HSAdQl+OzqePYBE4cKti9hrF0/bT8SM+iD8UgXjO4alC07YR7OvdQ06TzGv7b7VI++n+amz8E5ZlHi7X80fwMerqx5bS2ThYd12r5ny06SYx50v3HjxcuXklTZpwHvOtELEkMCIWEnGOJdTox/A07Ib4NFHKKh/JsBadyXuVEMwDQGUiJRj2yRDZidBbcEMS7K0dtqs8B3y6icHZ/+fbk9JGYS+OeKqWtg4fXc9WFfoinImW+TqUAuIhamSUEOwGyK2F/B8V9/Of9va7+awbex2ypH6z5ND9yoAbD6392pV730ZHSdOyBgnKWJjcJ0qgpJeLktq9VbDfvOfqLWfmqx5b4hhF8AB5J35wT47jk8KEKKpl7zBkiXj15jPiSd4xxC8sqifURTGDO7N1vnkl4/SNoCj/uukiG7pOC+Nq3FlVKCaEp4zMG1QmZSuYUxrPf8/h8O80jpJvT6RpDr9TBNKJ5FSbNuclBxlfrwkkNJejdmCjPXw==
+ properties :
+  width : 538
+  height : 375
+  widthClient : 536
+  heightClient : 343
+ controls :
+  -
+    name : BTN_Valider
+    identifier : 0x2a1fb84024d0a44f
+    internal_properties : CAAAAAgAAAAzgwv6RhLAVktaioFzGoqr7+EE8mG2KBXC/JjO6NuvhS+t89S3Ni0eFm0c5rZLI7bKc7+iP8JVnh/C/U+nEXOILA954mSaNyCZenPlzKE20anGML1kVibksrhsqaNY3Mfa8GSxhmoyDGpoYVr1fSgA397YQqmOl6rIGkMKFz/c5LOcVMNEwKD1SwMu8QFDVCEkgEKzPZam/RtbXvD7ZoAj8DRojB7GKApKMa1gejDG9I7MnTgMW5jY7NxzM7MRrHYJaPuKRfCd/ji0oMncW+wxOJNTSeHHdJ3XvTlDBv3kZ7BIkRFuMM0GKg/YlRD92M9VsMr01FvwB8mL7DRkVuVNfwN5xBrhaFmOq6WA26+88IlE/pScJKBs6V9iEH3xiTr66n2BRSVWKmTzJi7EArYvg4qmFs7JPfyfrUH/cvHI1NRwA7NqWoO3L7f4AZFF/Lxth108VOLbUm3rWrBCHkN8ZqoIbeXWKUaXZmXgQN7DHfhqALOHhFs26MWbbBQrUXudcqNiXqSm/SIwuH6fTZBJpEQUWxOBjXtUhVx+JVUfPcPwrhdU8P28QIGJltQunLYgfxNGAY8HFRMD6pA2Eu0JmINjopOdarh78FcGAGPl1gZ7q6HuDKgJrrJ1N0cY6RFHfcoG3v5Sa7yX0rwI4XnZBOYJL/ex8932DJ5O3idH1k3L5lurhCibmezKnIthtFe/gHOgGeLTT6Mqxp25Oc2JXMBzDQAWPtRmHCAfbD2H2VG2zWpn3W2FJgfMjGYCjH2vQtGLQfbhvjoSdBl32K2FC5+RiPqG7ZcVoZ53TTg3vQLOAyaacXrA8w4BVI13ir+3Do/NqohP5Qvm75jAGFXRueh+Xi6KO+tdeosZ+hyJW/7BHS3hoROCz+aww/6vE8j2faWMy/+IhORWfSvDlYmYGdZALjkU1DR0zeGFf3mmtyhhlvO4mc5t74OR0Ac+sLyiJM1NUHi61NfUOaXs/i1JPZ+MPYEDtwqVXI/U
+    properties :
+     x : 252
+     y : 312
+     width : 131
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACDdVrPNRpeQpuwSx5YIzAZX0G0oBgRc4fjXi9kVIGHlxVYzuz7BKlRLL+PQFRiFQ7j3iLsgFj4OkDPNpsKpmTGL4caSSd6huZ2EAA6QPje7G0/vpE0MdTFApLj6ukfrRYHK5UHxHnA7OzOfyQ=
+        code : |1-
+         // Est-ce qu'il y a un gabarit sélectionné ?
+         SI LSI_ListeGabarit<=0 alors retour
+         
+         // Extraction du gabarit
+         sGabarit est une chaine = Gabarits.ExtraitGabarit(ComplèteRep(fRepExe())+csNomRepertoireGabarits+"\"+LSI_ListeGabarit[LSI_ListeGabarit]+".zip")
+         
+         // Vérification de la sélection
+         SI sGabarit="" alors retour
+         
+         // Mémorisation du gabarit
+         SauveParamètre(csNomParametreGabarit,sGabarit)
+         
+         // On met à jour le gabarit
+         ChangeGabarit("",ChargeParamètre(csNomParametreGabarit,""))
+         
+         // On indique que la fenêtre appelante doit être actualisée
+         MaFenetre..ValeurRenvoyée = Vrai
+         
+         // On ferme la fenêtre
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Retablir_le_gabarit_par_défaut
+    identifier : 0x2a1fb84024d2a45e
+    internal_properties : CAAAAAgAAABVp+S7rL3qosXVFMeKjvGFDhm8qJNSTn8VzVKnGWYsT+17vF6T+MqIorcE1NXy3tQSM97BplwoRdnJI40F7xxp6LUeQqMLAS3E2YGcugC6JBTz0hWPZm+l+4/UP2qVG++Kd49/bqmtDBfq+TK75JfAj/XUXTxbp8APL282Xv1DXyAzEPAygqEH56/bSb+QgsdBMvUcyCbWjhGvDaB9e40TZwOilcjPHL3pV7QuKRcfAO/eZ9eKCk8+vNQzLpYgnKz4ntZRxrTkdHoxU7b0nWaVvceLvmhPEUOokVCv28Z1foiSu4/M0Jymakdnez3NUnRhh8A6MHTe0X5eofSlRvB1uia9BS87T3XMPOaHyPZ7z7HDiWwaR5TP7dMKv+H3y5FV0ZeNP/jInIeP7xnQR2Zap6duYaIaygRKHtXdNgEp0xE6OtSd5PIDMhOA3OLM4Y97O2bVlWVPgdrHZAChPwfdYloE2/mVYshoHrMEMI14mjBBBFQxknjCbDmBlxJenSRRyI1tbJYnXMxKpFdwigrI592Kk9XnGJoJ0jEY3h5nRA670uWQl+seXkGNdPJCrKfhXdeCmisoCOZuNqXxn3KTSA+vgLB6yxOGKyrDCZfKdctvHl/Fn4R2EEc02tpyU+tx4NE3KfnsP1Kh5bq6VIqrdlc9F63namIhqO1nM1f+N6xES4LNutYM4F49HEOvYwKfi/cHxHd61ANywZjjEeCVHFIyv0Z1D6D2P7BFe/V1SUJSlbBwkh8BNWnA0xZwaFX8G5Kifmkx3//9WxxD7PbirbKLqtRUo5U99AxgSJsQSFQ7P2oZF/HOg+5wvw/n7I6wsZRMGdX2rb1QUbz0+H2HHx4OuVTUnuTHxvtlAx6nNpeA7XH79RGOljmExMubK6/dIefW/RYl4x+g7eTlL973t2vfwzE9nHQRt6TIrHfPwXMMv4u3fJveMeTTBtfcKRbqeAgfw+fvTLAogQo=
+    properties :
+     x : 70
+     y : 312
+     width : 176
+     height : 25
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Plus de gabarit mémorisé
+         SauveParamètre(csNomParametreGabarit,"")
+         
+         // On désactive le maximum de changement de styles
+         ChangeGabarit("","")
+         Info(<§$0000§>)
+         
+         // On ferme la fenêtre
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LSI_ListeGabarit
+    identifier : 0x2a1fb84024d4a45e
+    internal_properties : CAAAAAgAAAAOudslOwBitjB8CyIux2SSf5HgltpHEPV0U3XkcY6ltmNdPL/GP9v/7053ucmO5YNY3AKXdKdgl2B8Gs0td7XZN4IBun4Xenwmxjgff0F3MIsgB9F9vhaDxazfcHwLd6DElsmBZu0quymnhTafc2lz1f5WZ1c/NbX7AzgIX4nVBtA/BqfzjguCa0qEKxJTAgPBuLO0zcGx0OiT5hKHH3ALyMtKvlBzrK3Sn7zB5y8VIZokeC48ZZrIFR++3vxP5cKBTUpOVuAQL8F9dILe95mwFqmX5i4D29EoHKp4FiMNovPlFh0pBUpnl/tUPIr9I4JQtGbgv7Xe3/enJdI8T08+vx3Qgd9hkHBD68HzSq/UTeSM3NuTx3hNmW+/WFy3MDeemQYYFVHYGnoRBarPI6bUcAzFjuSckORHkmao/cr5NGaRyKSQPPcO6W7t6kGRrU2EhFqM3Mb6KG5SZAaMfLs/jJJe21MEcHBnkCA1TqlR3HkWGH3sCA6Qlg7z+dVLeC2guazI/0kSklEg598Sj4Ribp7lcd7QpneCOhs1AYuErrrmMhd2HuDM5IaSi7kyp1kd8FOXsHyG40YhjP4R1xRFTRmq28ey7GOlqZq/14DlHGW7gsPqRKqSqWEH5duCISY6ZEGVWhEWWC2022pVTUNOoRVh/lOffHhwupXW8WxTYsEv9/OK+agoVFdjKQ784/IBbfIEFCO+y9mFeSrGaPAEOCIQovolMqzWMpS2By/I330/d5grTJieHIoOFTRrYiBZH8G7AX22meZofGLt6aoOAQcft+Vn2HZmvLVt7cI9m1qa9dskjmNHsihdO4lu8Tz3qRqeAUVDCu6wUf1/2aUCLsOav3rHzTF7tYBrsP+/1F5DU45Hh+YgK/mNv+ZjTd7FPpwYI5j7oXRaFZFR17zseeRbCh89E7F++M0ytPDhuloqiXxx0u/f/1csm1ccuYBY6sfC1XM4lkJdd20WtqIpvKQQuIYlIkwQmvExVYbtHydUDG1f7dI6mFBp6rlYMvRkQ35VJJckSPSB3cKpqgRxEUz6/m/XIuNojWVf9E1ag/aJN2E0Rb3nIiPKDLwWhIQlftGMDIN7hmdK1JAm0a5hhZqVi8TS4MvGiYOPZZWrZ9HWDGjBhdme1BUjkNaL/m3U5BG9vFdCU2xuN7O51kjUTiPGpkHOYI9XYWJmIdXcnRqTNqseLZAnnPLQz/Y8Rs7nQfTcvKjFX1MVdNy9rYGfgmFa2wGdNfWHLqUnp2vORuGTJbOcUoxHiEHEKKjsyj9fuk2qy9HUdaJufCZakHxOxuXdKbjC8XuYcSUfMtPSyCfC7n/cpg25p42367Qt+hfRMnnVXcpEbEupfVH/3JNT4Enrmcae3NfH4OaecyY6+ikXN2XEumO0ef3J8aQjZokM7+Clvv4xK+zkLTBMLF2NoKai0zfNm6lU4Alk6OjexCLDB5LWn3Gjm54hjWLS9Yna25rLa4QyK9xU
+    properties :
+     x : 6
+     y : 33
+     width : 524
+     height : 273
+    type : 27
+    code_elements :
+     type_code : 59
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x2a1fb9bb3d836d96
+    internal_properties : CAAAAAgAAADXHGcHoQcWkEEQYGK6t4EsFFIjzyknb45ejhNESfl5CDiBMm/DNa3MfZUm5EjNTSUJo//dwoK+wN6rCtjzy8PRPCaTK+XdQtdn3neFPo1Xt9AYi6RJXqTo63iZny/psrp/g0OQWwRU8LAtBrINIZFSxE3G+ZvMhdKEibU0cD4ZHpGmzZf+xywJEuaz20o0PQs2C3iGqUlBU9fI4GYniYiYTFkaETSUYw08xob0jODo+5ttaVD8mDcNGeWBaergX99/uJ0ThKCR6MOobQ95HEgOAcq4fr0y7yzQizvMT77/1jcMYstcdjJq/01QGUTH58GkV5hreditQkBtLv066dd5IqGJ5gt9NfjW6poUD/UU5Rr9m1xiyRuhH1cu+zRpMggg6lX0FLq+leM3LX1/azNHM5xU7Id5PX9JZtBSWIPSjnjyijYafy5PGGtEcCS9anS7i+kUfEoF2Qf2hxOD4t26MMLuXTk9ac98Z111Kn4WHZqwTvVk305C9Wy1RjMsh36b9uIG24a/cy65YjJsKGrUBVimByu5wNHcOxgtQW19AhqBHdHbiG7ViETRaAvhdv8+TycjSIYIDQGu3hxLo6j3P9RY62uiQj+AWfBeeecQE4RvnLK0SFrwSvreK9qEv8/gg2X3C7CxzAJfmcnw4wt3y8KpBdk7qRMdAeuDI4Xzrdz30Aqh/6dJsM/K8UQqNkOdFXRpFr3hekDQATrq0V/xwQVQwIxN/cLEiglaSNXXS7ybH1pTcAaoLz7sDA4HG9avxuY6kL5hmvzC/WMDcGWhp/lnvGsc62JFmUVozxvKYm0o3+n57CNyfgBFLypoKhbo6rLfqJ26nrch0x8RV9L5VHFt9EaK4oJCE/0FFdNXJPK79kU/HKXvKBuW9bi3/30vSE0XJDCvbCwYyKILc9iYpeYWrXwThO5Cs2KZvBrQ8gRlrWbn9Fzp4QZt8Wsc4bugbo225QFvSzXDVTW08clCoOouZgStNTib7O+ah8x8hNK3b460uN5f
+    properties :
+     x : 389
+     y : 312
+     width : 142
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Libellé1
+    identifier : 0x2a1fb8f4321962bd
+    internal_properties : CAAAAAgAAADRxembCwreRtxClbqGoNU1fXM0Fd2Z41RxHtwsRdSlHeMefCQw3OSq/k/I4nfC5BIrz7ae2MyC18NP6EuCYSWaaQ/yNFr8zk/vici2cERlZiZ5fh8XYH6IUKs28WKW18K5FXP2eWcEILblW2ltsTwabQZdHJ2uGLl39t9Il0acq2Boon9CmWa3TDLJfqd4lAwOTNYSIFo9GS1VAlID60hyCJ8XUAnzK97Ycl1FRdqukTv2sVWUNNIlSXqYVdwoGVFj/kEOs/JaNOkv2mEa9/rFNaVPEeCMhOtnSy7zX6dGzWZpuj8tbvgZ8rck6msVZl2bq0nKscK8bWCCmgy885OTjCtqPTi/kg9Tghze3LaMVXIFxOVv/SrkJwReLfWCEojCjl/DWwMSPt6KJNplpyWZJPy5Kgsf385forL84AeQrPpcFogStIzYVFqk/tdb7MYc3bUNKZZJ+uMt5UO3MQpzymGT0e+F9g7x6uaufOhm6lAwyChOL0KAQbJMzFvv8/kSJATw86YzpVWjl7CwVs6xRigjv2c1UFQuMzOSQs4Fb3aHgisz9uAVDTk=
+    properties :
+     x : 6
+     y : 6
+     width : 525
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x2a1fb82424a1369f
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACtiQ5m9TCLJg/QJHXaiyJeC7aiuE9R+Gii5v+f44clpF81m2MccuElZFRH0DE9z3YWq5RYoggvL41GD7N5NBrRkTNARyH9TwKWJsDMNA==
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAClrGR3EY8sfdN0AbfgNFoVKgy+vCeANkXHKGJEMC/bdyBdwVlmDaO/tOfE9feiWUbns+m/+vv4G6p728wVqW/mviIEru3qDJ42p+FQuEjD2vSpyAy2GnyrTseSTuJsX2Hmmo01Xyo6JUOdWENm1x1RLNPBR2Hcgf04/cfuyf8qKQ==
+     code : |1+
+      PROCEDURE FEN_ChoixGabarit()
+      
+      LOCAL
+      	sListeGabarit 	est une chaine
+      	sGabarit		est une chaine
+      	nIndiceFichier	est un entier
+      	bufImage		est un buffer
+      	sNomVignette	est une chaine
+      	GabaritArchive	est un zipArchive
+      	
+      // Pas de valeur renvoyée
+      MaFenêtre..ValeurRenvoyée = Faux
+      
+      // Si les gabarits sont stockés sous forme d'archives
+      sListeGabarit = fListeFichier(ComplèteRep(fRepExe())+csNomRepertoireGabarits+["\"]+"*.zip")
+      
+      // Parcours des gabarits
+      POUR TOUTE CHAINE sGabarit DE sListeGabarit SEPAREE PAR RC
+      	// On ne doit pas prendre de fichier en double ni du cache GDS (en test local)
+      	SI ListeCherche(LSI_ListeGabarit,fExtraitChemin(sGabarit,fFichier),Vrai)>0 ALORS CONTINUER
+      	SI Position(fExtraitChemin(sGabarit,fFichier),"cache.gestion de sources")>0 ALORS CONTINUER
+      	
+      	// Ouverture en mémoire de l'archive
+      	SI ZipOuvre(GabaritArchive,sGabarit,zipLecture) = 0 alors
+      	
+      		// Est-ce qu'il y a une vignette personnalisée ?
+      		nIndiceFichier = zipChercheFichier(GabaritArchive,fExtraitChemin(sGabarit,ffichier)+"\"+"FEN_ExempleGabarit.png")
+      		SI nIndiceFichier > 0 alors
+      			// On a trouvé le fichier
+      			bufImage = zipExtraitFichier(GabaritArchive,nIndiceFichier,zipEnMémoire)
+      		SINON
+      			// On recherche la vignette par défaut
+      			sNomVignette = fExtraitChemin(sGabarit,fFichier)+"_Logo.gif"
+      			nIndiceFichier = zipChercheFichier(GabaritArchive,fExtraitChemin(sGabarit,fFichier)+"\"+sNomVignette)
+      			// Est-ce que l'on a une vignette ?
+      			Si nIndiceFichier > 0 alors
+      				bufImage = zipExtraitFichier(GabaritArchive,nIndiceFichier,zipEnMémoire)			
+      			FIN
+      			
+      		FIN
+      		ZipFerme(GabaritArchive)
+      		
+      		// Ajout du gabarit
+      		SI bufImage<>"" alors
+      			SI fRépertoireExiste(Gabarits.gsRepGabaritsDynamiques) = Faux alors
+      				fRepCrée(Gabarits.gsRepGabaritsDynamiques)
+      			FIN
+      			fSauveTexte(Gabarits.gsRepGabaritsDynamiques+["\"]+fExtraitChemin(sGabarit,fFichier)+"_apercu_gabarit.jpg",bufImage)
+      			ListeAjoute(LSI_ListeGabarit,fExtraitChemin(sGabarit,fFichier),Gabarits.gsRepGabaritsDynamiques+["\"]+fExtraitChemin(sGabarit,fFichier)+"_apercu_gabarit.jpg")
+      		SINON
+      			ListeAjoute(LSI_ListeGabarit,fExtraitChemin(sGabarit,fFichier))
+      		FIN
+      		
+      	FIN	
+      	
+      FIN
+      
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAAByQ7wCHdhL/KEDB9nf6oMGU/FzbypMGVHyBwPiCaq1weNEGGa1mqAXY23NuLI5f1p5mElYRc1+fWpLKZLN8dH/P6LwhlLHuqcSPNh+lK+Q5Am6X8AIw1Z7UkN01jKmUQIxgdpXJZTVcg6bd0LYTiYQoJwDwTU=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1a1fb81900620b89
+  internal_properties : CAAAAAgAAAC+kI6hfe3TqlvmKMQqCeuNIxYbGmt4XIvQml2glDjnCK7pnudB/cN3kmoNoQU=
+  strings :
+   -
+     text :
+      fr-FR : "Le gabarit par défaut sera entièrement rétabli au prochain lancement de l'application "
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
